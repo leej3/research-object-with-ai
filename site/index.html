@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="What Did We Just Make? Research objects with AI." />
+    <title>What Did We Just Make? — Research objects with AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="deck" aria-label="Research objects with AI slide deck">
+      <button id="previous-zone" class="click-zone" aria-label="Previous slide"></button>
+      <figure id="stage">
+        <img id="slide" alt="" draggable="false" />
+        <figcaption id="slide-description" class="sr-only"></figcaption>
+      </figure>
+      <button id="next-zone" class="click-zone" aria-label="Next slide"></button>
+
+      <div id="progress" aria-hidden="true"><span></span></div>
+
+      <nav id="controls" aria-label="Presentation controls">
+        <button id="previous" aria-label="Previous slide">←</button>
+        <span id="counter" aria-live="polite"></span>
+        <button id="next" aria-label="Next slide">→</button>
+        <button id="fullscreen" aria-label="Enter fullscreen">⛶</button>
+        <a href="research-objects-with-ai.pptx" download>PowerPoint</a>
+      </nav>
+
+      <div id="hint">← → to navigate · F for fullscreen</div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

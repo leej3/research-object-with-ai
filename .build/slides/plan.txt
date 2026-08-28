@@ -1,0 +1,35 @@
+Communication job
+
+By the end, a mixed nontechnical AI audience should recognize that AI amplifies
+longstanding problems of context, provenance, reuse, and handoff; understand
+that CON works on those problems through open community infrastructure; and
+remember STAMPED as seven useful questions for making digital work intelligible
+later.
+
+Narrative
+
+1. A knowledge worker has an extremely productive AI session.
+2. The next morning, they cannot recover what happened or continue the work.
+3. Science has lived with the same fragmentation across data, code, methods,
+   metadata, environments, and human memory for decades.
+4. Open science, standards, repositories, versioning, and workflows are
+   community responses to that older problem.
+5. CON contributes open, reusable, tested, convenient community infrastructure.
+6. AI lets the team build faster and can also manufacture confusion faster.
+7. STAMPED supplies a tool-agnostic vocabulary for better research objects.
+8. Seven playful questions connect each formal principle to ordinary digital
+   work.
+9. The close generalizes beyond neuroscience: build the memory into the work.
+
+Visual direction
+
+Rapid Lessig-style pacing; warm cream, ink navy, teal, coral, and mustard;
+large type; surprising scale changes; occasional full-bleed editorial collage;
+very little conventional bullet content. Technical definitions appear in a
+quiet bottom strip and are not presented as material to memorize.
+
+Output
+
+- Editable PowerPoint deck with speaker notes and source blocks.
+- Public static web deck using rendered slide images and keyboard navigation.
+- Concise speaker-notes document for rehearsal.

@@ -1,0 +1,28 @@
+Project sources
+
+- Talk concept: /Users/johnlee/Documents/toastmasters/research-object-with-ai/docs/talk-concept.md
+- STAMPED manuscript: /Users/johnlee/code/CON/stamped-paper/main.tex
+- CON talk repository mission: /Users/johnlee/code/CON/talks/SOUL.md
+- Knowledge-worker framing:
+  /Users/johnlee/Documents/ChatGPT/wsdg-ai-collaboration/talk-concepts/07-the-finite-human-and-the-tireless-producer.md
+  /Users/johnlee/Documents/ChatGPT/wsdg-ai-collaboration/talk-concepts/05-human-collaboration-and-community.md
+  /Users/johnlee/Documents/ChatGPT/wsdg-ai-collaboration/talk-concepts/01-production-judgment-and-ownership.md
+
+External sources
+
+- CON mission and principles: https://centerforopenneuroscience.org/
+- STAMPED paper and definitions: https://stamped-principles.github.io/stamped-paper/
+- STAMPED project: https://stamped-principles.org/
+- FAIR principles: https://www.go-fair.org/fair-principles/
+- Dick Hardt, Identity 2.0 keynote: https://www.youtube.com/watch?v=RrpajcAgR1E
+
+Assets
+
+- CON logo: https://centerforopenneuroscience.org/theme/img/logos/logo_blue_big_with_margins.png
+- STAMPED logo: https://raw.githubusercontent.com/stamped-principles/stamped-branding/c3191c404b734ba62ceddcad29f382ef51f9d249/ver-2/name-main%2Blogo/name-main%2Blogo_ver-2.svg
+- Four editorial illustrations generated for this deck with the built-in OpenAI
+  image generation tool. Prompt intent and filenames:
+  - assets/generated/tireless-producer.png — finite human / tireless producer
+  - assets/generated/research-islands.png — fragmented neuroscience project
+  - assets/generated/research-suitcase.png — packed research object
+  - assets/generated/handoff-relay.png — human/AI/community handoff
