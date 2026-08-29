@@ -1,0 +1,5 @@
+# Keep prose changes to a single sentence per line, making reviews and merges
+# substantially less noisy.
+format = "markdown"
+max_width = 0
+clause_breaks = false
