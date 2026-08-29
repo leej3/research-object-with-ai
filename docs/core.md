@@ -22,10 +22,11 @@ presentations, analyses, guides, legal documents, software, scientific results,
 and many other things. AI makes it possible to produce many more of these
 artifacts, much more quickly.
 
-The visible output is only part of an artifact's value. We also need to
-consider whether its quality can be assessed, whether its history can be
-understood, and whether its useful parts can participate appropriately in
-future work.
+The central problem is quality assessment. AI can produce artifacts with the
+surface characteristics of high-quality work—polish, fluency, coherence, and
+apparent completeness—before anyone has established whether the underlying
+work is sound. Expert review remains necessary. We want to construct artifacts
+that make that review as efficient, focused, and inspectable as possible.
 
 ## The argument
 
@@ -42,32 +43,40 @@ or clinical assessment may need to remain a fixed record, while its evidence,
 method, terminology, or structure remains relevant to later work. Reuse does
 not always mean editing the original object.
 
-### AI may get us 80% of the way
+### How far from complete is the work?
 
-“Eighty percent” is an intuition rather than a measurement. AI can quickly
-produce something that looks substantially complete, while an expert supplies
-the remaining judgment, correction, selection, and responsibility.
+AI can quickly produce something that looks substantially complete without
+revealing how much work remains. Is it five percent from complete? Fifteen
+percent? Are the cited sources real? Are the facts correct? Does the argument
+hold? What has not been considered? The polished surface does not answer these
+questions.
 
-The difficult question is not simply what the final 20% contains. It is how we
-assess the quality of the whole. A polished output does not reveal which parts
-are sound, which assumptions were made, what the expert checked, what changed,
-or where important weaknesses remain.
+The expert's work is therefore not to finish a known remainder. It is to assess
+the quality of the whole: determine what is sound, identify what was assumed,
+understand what changed, decide what requires checking, and accept
+responsibility for the result. Until that review occurs, a convincing output is
+not yet a usable result.
+
+The way the artifact was produced makes this uncertainty more troubling. When
+an expert develops work incrementally, the process itself creates knowledge of
+the sources, decisions, doubts, changes, and unfinished parts. An AI-generated
+output can arrive before the expert has acquired that understanding. The
+artifact looks familiar, but the path that would normally help us judge it is
+missing or obscured.
 
 This problem is not exclusive to AI. Human work can also conceal its sources,
 history, and construction. AI makes the limitation harder to ignore because it
 increases the speed, volume, and apparent completeness of what can be
-produced.
+produced. AI reduces the cost of producing a plausible artifact without
+necessarily reducing the expert effort required to evaluate it. Determining
+whether the work deserves confidence can require as much effort as, or more
+effort than, producing the draft.
 
-### Reputation has traditionally carried part of the burden
+### The artifact can make expert review more efficient
 
-We often accept an opinion or artifact partly because a recognized expert or
-institution stands behind it. Reputation gives us a reason to take seriously
-work whose construction we cannot inspect completely.
-
-Reputation remains valuable, but it cannot carry the entire burden when the
-volume of content grows and authorship becomes more complicated. The artifact
-itself can provide additional grounds for assessment by showing enough of its
-work.
+Expert judgment cannot be replaced by polish, reputation, provenance, or an
+automated check. The artifact can, however, be constructed so that an expert
+does not have to reconstruct the work before evaluating it.
 
 That may include:
 
@@ -81,13 +90,13 @@ That may include:
 - enough information to repeat or test relevant procedures.
 
 Exposing these things does not prove that the work is good. A reproducible
-result can still be wrong. It makes the quality of the work more open to
-examination. The willingness to permit that examination can itself be a useful
-signal.
+result can still be wrong. This evidence makes review more focused, efficient,
+cumulative, and inspectable. The goal is not less expert judgment. It is to
+spend expert attention on the questions that actually require it.
 
 ### Here are properties that make artifacts more useful
 
-An artifact becomes more useful when it carries enough information and
+An artifact becomes more reviewable when it carries enough information and
 structure for people to understand what it is, assess its quality, and use it
 appropriately.
 
@@ -152,7 +161,11 @@ knowledge artifacts should be organized.
 
 STAMPED is not the argument itself. It is the vocabulary our group uses to
 describe properties the audience has already encountered through ordinary
-examples.
+examples. Those properties make expert review more efficient: tracking records
+provenance; self-containment keeps evidence reachable; actionability makes
+procedures testable; modularity allows components to be examined independently;
+portability and ephemerality expose hidden dependencies; and distributability
+allows another reviewer to obtain an equivalent object.
 
 The talk should therefore teach the concepts before revealing their names. The
 audience first develops an intuition for wanting an object to be complete,
@@ -177,9 +190,11 @@ The talk can be summarized as:
 
 > Here are things we make with AI.
 >
-> The finished output does not tell us enough about the quality of the work.
+> AI can produce a finished-looking artifact without revealing how far it is
+> from complete or whether its sources, facts, and reasoning are sound.
 >
-> Here are properties that make artifacts more useful and open to assessment.
+> Expert review remains necessary, and the artifact can make that review more
+> efficient.
 >
 > AI increases the number of artifacts and the need to reason about those
 > properties.
@@ -190,19 +205,20 @@ The talk can be summarized as:
 >
 > STAMPED gives us language for designing and evaluating the result.
 
-The audience should leave with a broader understanding of “useful.” It is not
-only whether an artifact answers today's question or looks finished. It is
-also whether the object provides enough evidence and structure for its quality
-to be assessed and for its useful knowledge to contribute appropriately to
-future work.
+The audience should leave suspicious of apparent completeness. A polished AI
+output is not a result until someone with the necessary expertise has assessed
+it. A useful artifact organizes the evidence, history, procedures, and
+components so that the expert can perform that assessment efficiently and so
+that later review can build on what has already been learned.
 
 ### Opening and ending
 
 The opening should present something polished that AI has helped to create: a
 report, assessment, analysis, or presentation that looks substantially
-finished. The “80%” intuition allows us to ask what remains unknown beneath
-that appearance. Which parts are sound? What did the expert contribute? What
-evidence, history, or structure accompanies the result?
+finished. Then ask what the surface cannot tell us. How far from complete is
+it—five percent, fifteen percent, or much more? Are the sources real? Are the
+facts correct? What was assumed? What must an expert check before anyone should
+rely on the result?
 
 The ending returns to the same kind of finished object. Its visible surface
 may not have changed, but the audience's way of seeing it has. They now know to
@@ -221,10 +237,15 @@ Every sequence should answer:
 
 This keeps supporting ideas in service of the central argument:
 
-- The **80% idea** illustrates the gap between apparent completeness and
-  assessable quality. It is an intuition, not a measured productivity claim.
-- **Expert reputation** explains one way we accept work whose construction is
-  partly hidden. It remains useful but is not sufficient evidence by itself.
+- The **unknown remainder** illustrates the gap between apparent completeness
+  and established quality. There is no fixed percentage of expert work left.
+- The **different production path** matters because the expert receives a
+  polished output without necessarily gaining the understanding that normally
+  develops while making it.
+- **Expert review** is indispensable. The aim is not to automate judgment away,
+  but to make the evidence and structure needed for judgment readily available.
+- **Provenance** supports review by revealing inputs, assumptions, decisions,
+  and changes. It is evidence for judgment, not proof of quality.
 - **Reuse** is one consequence of a well-structured artifact, not the entire
   argument.
 - **Agentic organizations** show why explicit structure can support both human
@@ -233,21 +254,22 @@ This keeps supporting ideas in service of the central argument:
   work, qualified by ethical, legal, privacy, and security constraints.
 - **Science** provides the demanding practical case in which claims can be
   grounded in data, code, methods, environments, and decisions.
-- **STAMPED** provides a design and evaluation vocabulary. It does not certify
-  that an artifact or scientific conclusion is correct.
+- **STAMPED** provides a design and evaluation vocabulary for making review
+  more efficient. It does not certify that an artifact or scientific conclusion
+  is correct.
 
-The talk should distinguish what kind of statement it is making. The 80%
-figure is a metaphor for a common experience; increasing artifact production
-is a claim about AI's practical effect; open science is a value position; the
-research object is the concrete case; and STAMPED is the proposed framework.
-Showing the work does not prove that the work is good. It makes that question
-easier to investigate.
+The talk should distinguish what kind of statement it is making. The unknown
+distance from apparent completion to dependable work is the rhetorical
+problem; increasing artifact production is a claim about AI's practical
+effect; open science is a value position; the research object is the concrete
+case; and STAMPED is the proposed framework. Showing the work does not prove
+that the work is good. It makes expert review of that question more efficient.
 
 ## Concise formulation
 
-> AI can help us produce something that looks finished. A well-constructed
-> artifact shows enough of its work for someone to assess its quality and
-> understand how it can be used.
+> AI makes the appearance of high-quality work cheap. Confidence still requires
+> expert judgment. A well-constructed artifact does not replace that review; it
+> makes the review as efficient, focused, and inspectable as possible.
 
 STAMPED is our approach to thinking systematically about what such an artifact
 should provide in science. The same questions apply to many other kinds of
