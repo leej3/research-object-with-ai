@@ -1,8 +1,21 @@
 # Core argument
 
-## Central question
+## Working title and narrative question
 
-> What properties do we want the things we make with AI to have?
+**Official title:** *What Did We Just Make? Managing Research Objects with AI*
+
+**Narrative subtitle and refrain:**
+
+> What does this reveal about the properties we want an artifact to have?
+
+**Closing question:**
+
+> When AI gives you an answer, what else do you want it to give you?
+
+The subtitle is not a second topic. It is the test for every sequence in the
+talk. Each example should reveal something we may want an artifact to provide.
+The closing question returns that accumulated understanding to the audience's
+own work.
 
 Knowledge workers create digital artifacts: reports, assessments,
 presentations, analyses, guides, legal documents, software, scientific results,
@@ -183,6 +196,53 @@ also whether the object provides enough evidence and structure for its quality
 to be assessed and for its useful knowledge to contribute appropriately to
 future work.
 
+### Opening and ending
+
+The opening should present something polished that AI has helped to create: a
+report, assessment, analysis, or presentation that looks substantially
+finished. The “80%” intuition allows us to ask what remains unknown beneath
+that appearance. Which parts are sound? What did the expert contribute? What
+evidence, history, or structure accompanies the result?
+
+The ending returns to the same kind of finished object. Its visible surface
+may not have changed, but the audience's way of seeing it has. They now know to
+look for the materials and properties that make assessment and appropriate use
+possible.
+
+The final question is therefore:
+
+> When AI gives you an answer, what else do you want it to give you?
+
+### Narrative discipline
+
+Every sequence should answer:
+
+> What does this reveal about the properties we want an artifact to have?
+
+This keeps supporting ideas in service of the central argument:
+
+- The **80% idea** illustrates the gap between apparent completeness and
+  assessable quality. It is an intuition, not a measured productivity claim.
+- **Expert reputation** explains one way we accept work whose construction is
+  partly hidden. It remains useful but is not sufficient evidence by itself.
+- **Reuse** is one consequence of a well-structured artifact, not the entire
+  argument.
+- **Agentic organizations** show why explicit structure can support both human
+  and automated examination. They are not a separate topic.
+- **Open science** supplies a normative commitment to scrutiny and cumulative
+  work, qualified by ethical, legal, privacy, and security constraints.
+- **Science** provides the demanding practical case in which claims can be
+  grounded in data, code, methods, environments, and decisions.
+- **STAMPED** provides a design and evaluation vocabulary. It does not certify
+  that an artifact or scientific conclusion is correct.
+
+The talk should distinguish what kind of statement it is making. The 80%
+figure is a metaphor for a common experience; increasing artifact production
+is a claim about AI's practical effect; open science is a value position; the
+research object is the concrete case; and STAMPED is the proposed framework.
+Showing the work does not prove that the work is good. It makes that question
+easier to investigate.
+
 ## Concise formulation
 
 > AI can help us produce something that looks finished. A well-constructed
@@ -192,3 +252,7 @@ future work.
 STAMPED is our approach to thinking systematically about what such an artifact
 should provide in science. The same questions apply to many other kinds of
 knowledge work.
+
+The audience-facing formulation is:
+
+> When AI gives you an answer, what else do you want it to give you?
