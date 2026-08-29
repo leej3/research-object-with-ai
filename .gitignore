@@ -6,3 +6,6 @@
 .build/slides/deck-inspection.json
 .build/slides/deck-montage.webp
 dist/*.inspect.ndjson
+
+# APM dependencies
+apm_modules/

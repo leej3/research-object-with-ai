@@ -1,0 +1,11 @@
+name: research-object-with-ai
+version: 1.0.0
+description: APM project for research-object-with-ai
+author: leej3
+targets:
+  - agent-skills
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

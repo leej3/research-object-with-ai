@@ -1,0 +1,39 @@
+lockfile_version: '1'
+generated_at: '2026-08-29T19:38:39.847366+00:00'
+apm_version: 0.28.0
+dependencies: []
+deployments:
+- kind: project-relative
+  target: agents
+  value: .agents/skills/lessig-presentations
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/lessig-presentations/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:a7d1a2316fb1ce4c5b3fa6f013581ea8447b3d0547ebce53530d79fbd98deef5
+- kind: project-relative
+  target: agents
+  value: .agents/skills/lessig-presentations/agents/openai.yaml
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f444bfb1bca74a3d9d35872ab7f04d914052355644b6556cd1fc9393b0cd9438
+local_deployed_files:
+- .agents/skills/lessig-presentations
+- .agents/skills/lessig-presentations/SKILL.md
+- .agents/skills/lessig-presentations/agents/openai.yaml
+local_deployed_file_hashes:
+  .agents/skills/lessig-presentations/SKILL.md: sha256:a7d1a2316fb1ce4c5b3fa6f013581ea8447b3d0547ebce53530d79fbd98deef5
+  .agents/skills/lessig-presentations/agents/openai.yaml: sha256:f444bfb1bca74a3d9d35872ab7f04d914052355644b6556cd1fc9393b0cd9438
