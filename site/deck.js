@@ -25,7 +25,7 @@ export const deck = [
   {
     "layout": "image",
     "theme": "navy",
-    "imageAlt": "A slow animation cycles through legal, clinical, scientific, consulting, presentation, and software artifacts, each surrounded by different quality checks."
+    "imageAlt": "A carousel advances once per second through minimal icons labeled legal contract, clinical assessment, scientific analysis, consultant report, presentation, and software pipeline."
   },
   {
     "layout": "tiles",

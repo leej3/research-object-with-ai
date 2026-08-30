@@ -27,8 +27,7 @@ The transcript renders those links alongside the speaker notes.
 - `site/assets/handoff-relay.png` is an original generated illustration of a human, AI agent, and community handing work forward.
 - `site/assets/what-have-you-done.png` is an original generated illustration of a knowledge worker confronting an absurdly overproduced report.
 - `site/assets/digital-artifact-dealer.png` is an original generated caricature of a shady dealer displaying digital artifacts.
-- `site/assets/artifact-cycle/*.png` contains six original generated frames spanning legal, clinical, scientific, consulting, presentation, and software artifacts.
-- `site/assets/digital-artifact-quality-cycle.gif` is assembled from those frames by `scripts/build-artifact-cycle.py`.
+- `site/assets/digital-artifact-quality-cycle.gif` is a code-generated carousel assembled by `scripts/build-artifact-cycle.py`.
 
 The editorial illustrations were made for this presentation with OpenAI's image-generation tool.
 Licensing and exceptions for the supplied marks are recorded in `REUSE.toml` and `LICENSES/LicenseRef-External-Marks.txt`.
