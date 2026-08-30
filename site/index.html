@@ -10,11 +10,22 @@
   <body>
     <main id="deck" aria-label="Research objects with AI slide deck">
       <button id="previous-zone" class="click-zone" aria-label="Previous slide"></button>
-      <figure id="stage">
-        <img id="slide" alt="" draggable="false" />
-        <figcaption id="slide-description" class="sr-only"></figcaption>
-      </figure>
+      <section id="stage" aria-live="polite" aria-atomic="true">
+        <article id="screen" class="screen"></article>
+        <p id="slide-description" class="sr-only"></p>
+      </section>
       <button id="next-zone" class="click-zone" aria-label="Next slide"></button>
+
+      <aside id="notes-panel" aria-label="Presenter notes" aria-hidden="true">
+        <div class="notes-heading">
+          <span id="notes-section"></span>
+          <strong id="notes-number"></strong>
+        </div>
+        <h2>Spoken</h2>
+        <p id="notes-voice"></p>
+        <h2>Notes</h2>
+        <p id="notes-text"></p>
+      </aside>
 
       <div id="progress" aria-hidden="true"><span></span></div>
 
@@ -22,12 +33,13 @@
         <button id="previous" aria-label="Previous slide">←</button>
         <span id="counter" aria-live="polite"></span>
         <button id="next" aria-label="Next slide">→</button>
+        <button id="notes" aria-label="Toggle presenter notes">Notes</button>
         <button id="fullscreen" aria-label="Enter fullscreen">⛶</button>
-        <a href="research-objects-with-ai.pptx" download>PowerPoint</a>
+        <a href="transcript.html" target="_blank" rel="noreferrer">Transcript</a>
       </nav>
 
-      <div id="hint">← → to navigate · F for fullscreen</div>
+      <div id="hint">← → navigate · F fullscreen · N notes</div>
     </main>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

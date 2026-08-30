@@ -1,11 +1,7 @@
 .DS_Store
 .wrangler/
-.build/slides/node_modules
-.build/slides/*.layout.json
-.build/slides/contact-sheet.png
-.build/slides/deck-inspection.json
-.build/slides/deck-montage.webp
-dist/*.inspect.ndjson
+.build/
+dist/
 
 # APM dependencies
 apm_modules/
