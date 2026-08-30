@@ -1,6 +1,18 @@
+default_language_version:
+  python: python3.10
+
 repos:
   - repo: https://github.com/TurtleTech-ehf/snapper
     rev: v0.10.0
     hooks:
       - id: snapper
         files: \.(md|markdown)$
+  - repo: local
+    hooks:
+      - id: reuse
+        name: reuse lint
+        entry: reuse lint
+        language: python
+        additional_dependencies:
+          - reuse==6.2.0
+        pass_filenames: false

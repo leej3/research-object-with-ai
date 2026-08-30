@@ -1,0 +1,37 @@
+version = 1
+
+# Unless a more specific annotation applies, creative material is licensed
+# under CC BY 4.0. The grant covers only material in which John Lee holds the
+# relevant rights; supplied marks are explicitly excluded below.
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "2025-2026 John Lee"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Software and machine-readable project configuration.
+[[annotations]]
+path = [
+  ".build/**/*.mjs",
+  ".pre-commit-config.yaml",
+  ".snapperrc.toml",
+  "apm.lock.yaml",
+  "apm.yml",
+  "site/*.css",
+  "site/*.html",
+  "site/*.js",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2025-2026 John Lee"
+SPDX-License-Identifier = "MIT"
+
+# These supplied marks are not relicensed by this project.
+[[annotations]]
+path = [
+  "assets/con-logo.png",
+  "assets/stamped-logo.png",
+  "assets/stamped-logo.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Center for Open Neuroscience and STAMPED contributors"
+SPDX-License-Identifier = "LicenseRef-External-Marks"

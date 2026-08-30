@@ -1,0 +1,15 @@
+External marks exception
+
+The files covered by this exception are supplied Center for Open Neuroscience
+and STAMPED marks. They are excluded from the copyright licenses granted by
+John Lee for this project. No permission to use any associated trademark,
+service mark, or logo is granted by this repository.
+
+Sources:
+- assets/con-logo.png:
+  https://centerforopenneuroscience.org/theme/img/logos/logo_blue_big_with_margins.png
+- assets/stamped-logo.png and assets/stamped-logo.svg:
+  https://github.com/stamped-principles/stamped-branding
+
+Use of these assets is subject to the rights and policies of their respective
+rights holders.

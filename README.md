@@ -11,6 +11,18 @@ The deck supports arrow keys, space, touch swipes, URL hashes, and fullscreen mo
 
 The editable PowerPoint is built at `dist/research-objects-with-ai.pptx` and is also included as a download in the published site.
 
+## Licensing
+
+This project follows the [REUSE specification](https://reuse.software/) for machine-readable copyright and licensing information.
+
+- Creative content, including slides, prose, and original generated illustrations, is © 2025–2026 John Lee and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- Code and machine-readable site/build configuration are © 2025–2026 John Lee and licensed under the [MIT License](https://spdx.org/licenses/MIT.html).
+- The supplied Center for Open Neuroscience and STAMPED marks are excluded from those grants.
+  Their sources and exception are recorded in `LICENSES/LicenseRef-External-Marks.txt`; no trademark permission is granted.
+
+Full license texts and path-level annotations are in `LICENSES/` and `REUSE.toml`.
+Verify the project with `reuse lint` (also run by pre-commit).
+
 ## Source material
 
 - `docs/talk-concept.md` — narrative and design brief

@@ -5,6 +5,11 @@ allowed-tools: Bash, Read, Edit, Write, Glob, Grep, AskUserQuestion
 user-invocable: true
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025-2026 John Lee
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # Introduce REUSE Compliance to a Project
 
 Implement the [REUSE specification](https://reuse.software/) for clear,
@@ -188,6 +193,7 @@ When this skill is invoked, follow these steps:
 
 ### 1. Assess Current State
 
+<!-- REUSE-IgnoreStart -->
 **Discover the project's existing licensing statements** (this is the
 input you must respect — see Guiding principles):
 - `LICENSE` / `LICENCE` / `COPYING` / `COPYING.*` at the repo root
@@ -240,6 +246,8 @@ declared.**
 
 **Default — single declared license (most projects):**
 ```
+
+<!-- REUSE-IgnoreEnd -->
 LICENSES/
 └── <existing-license>.txt   # e.g. Apache-2.0.txt, MIT.txt — only this
 
@@ -266,6 +274,7 @@ defaults.
 Generate annotations using the licenses surfaced in Step 1.
 
 **Default single-license template (recommended for most projects):**
+<!-- REUSE-IgnoreStart -->
 ```toml
 version = 1
 
@@ -339,6 +348,7 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = "YEAR AUTHORS"
 SPDX-License-Identifier = "CC-BY-4.0"
 ```
+<!-- REUSE-IgnoreEnd -->
 
 ### 4. Handle BIDS dataset_description.json
 
@@ -534,7 +544,7 @@ for machine-readable copyright and licensing information.
 When adding new files, no per-file SPDX header is required — the
 catch-all block in `REUSE.toml` covers the entire tree. If a file
 needs a different license (rare), add a targeted block or an in-file
-`SPDX-License-Identifier:` header.
+`SPDX-License-Identifier` header.
 ```
 
 Tailor wording to match the project's actual setup (single-block vs
@@ -673,12 +683,15 @@ the per-patch SPDX header (added below) wins over the block-level
 fallback:
 
 ```toml
+<!-- REUSE-IgnoreStart -->
 [[annotations]]
 path = "patches/**"
 precedence = "closest"
 SPDX-FileCopyrightText = "YEAR PROJECT TEAM <email>"
 SPDX-License-Identifier = "AGPL-3.0-or-later"  # match upstream
 ```
+
+<!-- REUSE-IgnoreEnd -->
 
 ### DEP-3 + SPDX header template
 
@@ -687,6 +700,7 @@ trailing `---` line terminates the metadata; everything after it is the
 ordinary `git diff` content. Patch tools (`git apply`, `git apply -R
 --check`, `quilt`, `patch`) accept and ignore the preamble.
 
+<!-- REUSE-IgnoreStart -->
 ```
 Description: <one-line summary>
  <longer explanation: why this patch exists, what it works around,
@@ -702,6 +716,7 @@ SPDX-License-Identifier: <upstream-matching SPDX ID>
 ---
 diff --git a/...
 ```
+<!-- REUSE-IgnoreEnd -->
 
 Field reference (DEP-3):
 - `Description` (required) — short summary on first line, longer
