@@ -1,4 +1,4 @@
 interface:
   display_name: "Lessig Presentations"
-  short_description: "Create and refine rapid, synchronized visual talks"
-  default_prompt: "Use $lessig-presentations to create or refine this talk as synchronized visual rhetoric."
+  short_description: "Plan and develop source-controlled Lessig talks"
+  default_prompt: "Use $lessig-presentations to plan or develop this source-controlled talk as synchronized visual rhetoric."

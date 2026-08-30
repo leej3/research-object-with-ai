@@ -1,0 +1,17 @@
+version: 1
+mode: web-source
+source_of_truth:
+  editorial: site/content.md
+  slide_configuration: site/deck.js
+  renderer: site/app.js
+  styles: site/styles.css
+  assets: site/assets
+decision:
+  chosen_by: user
+  chosen_on: 2026-08-30
+  reason: Keep the presentation as version-controlled, trackable source code.
+override:
+  allowed_modes:
+    - web-source
+    - powerpoint
+  requires_explicit_project_decision: true

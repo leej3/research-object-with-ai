@@ -20,7 +20,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:a7d1a2316fb1ce4c5b3fa6f013581ea8447b3d0547ebce53530d79fbd98deef5
+  content_hash: sha256:a003539c87a1ee6df08e0a18b79f72dda8327ec8b907b83de3d708e2d2a4f536
 - kind: project-relative
   target: agents
   value: .agents/skills/lessig-presentations/agents/openai.yaml
@@ -29,11 +29,11 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:f444bfb1bca74a3d9d35872ab7f04d914052355644b6556cd1fc9393b0cd9438
+  content_hash: sha256:cf1a14522fd2f2292e54fc3a77edbc5f5731ee1735f9fba4ce90a3d4f12d7a25
 local_deployed_files:
 - .agents/skills/lessig-presentations
 - .agents/skills/lessig-presentations/SKILL.md
 - .agents/skills/lessig-presentations/agents/openai.yaml
 local_deployed_file_hashes:
-  .agents/skills/lessig-presentations/SKILL.md: sha256:a7d1a2316fb1ce4c5b3fa6f013581ea8447b3d0547ebce53530d79fbd98deef5
-  .agents/skills/lessig-presentations/agents/openai.yaml: sha256:f444bfb1bca74a3d9d35872ab7f04d914052355644b6556cd1fc9393b0cd9438
+  .agents/skills/lessig-presentations/SKILL.md: sha256:a003539c87a1ee6df08e0a18b79f72dda8327ec8b907b83de3d708e2d2a4f536
+  .agents/skills/lessig-presentations/agents/openai.yaml: sha256:cf1a14522fd2f2292e54fc3a77edbc5f5731ee1735f9fba4ce90a3d4f12d7a25
