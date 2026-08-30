@@ -25,7 +25,7 @@ export const deck = [
   {
     "layout": "image",
     "theme": "navy",
-    "imageAlt": "A carousel advances once per second through minimal icons labeled legal contract, clinical assessment, scientific analysis, consultant report, presentation, and software pipeline."
+    "imageAlt": "A black-and-white carousel advances every two seconds through recognizable depictions labeled legal contract, clinical assessment, scientific report, consultant report, presentation, and software pipeline."
   },
   {
     "layout": "tiles",
