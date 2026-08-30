@@ -16,6 +16,7 @@ path = [
   ".snapperrc.toml",
   "apm.lock.yaml",
   "apm.yml",
+  "scripts/*.py",
   "site/*.css",
   "site/*.html",
   "site/*.js",

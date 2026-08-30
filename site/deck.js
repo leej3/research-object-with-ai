@@ -23,6 +23,11 @@ export const deck = [
     "imageAlt": "A caricatured shady dealer opens his trench coat to reveal glowing reports, charts, code, presentations, and data files."
   },
   {
+    "layout": "image",
+    "theme": "navy",
+    "imageAlt": "A slow animation cycles through legal, clinical, scientific, consulting, presentation, and software artifacts, each surrounded by different quality checks."
+  },
+  {
     "layout": "tiles",
     "theme": "cream",
     "breaks": [
