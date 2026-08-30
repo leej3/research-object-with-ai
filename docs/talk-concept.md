@@ -2,19 +2,33 @@
 
 ## Talk concept
 
-This 10–15 minute educational talk begins with a familiar experience: AI can produce work faster than a person can understand, evaluate, or even remember it.
-A knowledge worker may emerge from a productive session unsure what was decided, where the useful output went, or whether anyone—including the AI—could resume the work later.
+This 10–15 minute educational talk begins with the things knowledge workers make: reports, assessments, presentations, guides, analyses, and other digital artifacts.
+AI can produce something that looks substantially complete with remarkable speed.
+We often describe the feeling by saying that AI gets us 80% of the way there.
 
-This is not an entirely new problem.
-Researchers have long struggled with data, code, methods, metadata, and decisions scattered across computers, notebooks, repositories, and people's memories.
-AI accelerates both the work and the resulting disorder.
+The number is invented, but the experience is real.
+The difficulty is that we do not know which 80% AI got right.
+The final 20% may consist largely of discovering whether the first 80% is any good.
+An expert reviewing a polished artifact has the product without necessarily having acquired the understanding that normally develops while making it.
 
-The talk connects this personal experience to neuroscience and open science, then introduces the Center for Open Neuroscience.
-CON builds shared, reproducible infrastructure around longstanding commitments to openness, reuse, integration, quality, convenience, and community.
-AI now helps a small team build community tools faster, while making provenance, validation, maintenance, and shared understanding more important.
+A well-constructed artifact can help by carrying sources, history, methods, components, checks, and other evidence.
+These do not prove that the result is good.
+They make its quality easier to investigate without first reconstructing how it was produced.
+The same structure can also support adaptation, combination, transfer, automation, and future use.
 
-STAMPED is presented as CON's way of describing the qualities we want a research object—or, more generally, any durable body of digital work—to have.
-The formal definitions will be shown, but the audience will encounter the principles mainly through practical questions:
+The talk explores several kinds of reuse through familiar artifacts.
+A style guide is applied repeatedly.
+A presentation source can be adapted while its PDF remains a fixed delivery format.
+A clinical assessment may need to remain an immutable record while its evidence and relationship to later assessments still matter.
+Reuse does not always mean editing the original object.
+
+Science is the demanding case.
+A paper or figure may rest on expensive data, code, methods, environments, parameters, decisions, and many specialized contributors.
+Open science has strong reasons to expose this work to scrutiny and cumulative use, while still respecting ethical, legal, privacy, and security constraints.
+This framing leads to the Center for Open Neuroscience and its work on open, reusable community infrastructure.
+
+STAMPED is presented as CON's vocabulary for qualities we may want a research object—or another body of digital work—to have.
+The audience encounters the concepts first through practical questions:
 
 - **Where is everything?** — Self-contained
 - **How did we get here?** — Tracked
@@ -24,26 +38,37 @@ The formal definitions will be shown, but the audience will encounter the princi
 - **Will it work without yesterday's hidden mess?** — Ephemeral
 - **Can we hand it to someone else?** — Distributable
 
-The aim is not for the audience to memorize seven definitions.
-It is for them to recognize the pattern, remember the name STAMPED, and see how the principles might help them make AI-assisted work understandable to a future colleague—or to their future self.
+Only then are the questions mapped to their technical names and definitions.
+The reveal should feel like recognition rather than the introduction of seven definitions to memorize.
+Each principle is a spectrum, not a certification or a demand that every artifact maximize every property.
 
 ## Style
 
-The talk will use a rapid, highly visual, tightly synchronized slide style associated with Lawrence Lessig and exemplified by Dick Hardt's *Identity 2.0*.
+The talk uses a rapid, highly visual, tightly synchronized style associated with Lawrence Lessig and exemplified by Dick Hardt's *Identity 2.0*.
+The speech carries the argument; each screen carries one present rhetorical beat.
+Tempo varies deliberately between quick comic runs, steady explanation, and held evidence or definitions.
+
 Above all, it should be playful.
-Short phrases, surprising images, visual jokes, repetition, and comic escalation will carry one continuous story from personal AI confusion to research infrastructure and STAMPED.
-The words and visuals should reward recognition and invite the audience into the idea rather than merely explain it.
-Technical precision will remain available on screen without turning the talk into a lecture on terminology.
+The 80% progress bar, a PDF trapped behind glass, a research suitcase, “pieces, not pudding,” and “no ghosts in the machine” make abstract properties memorable.
+Repeated questions and visual callbacks carry one continuous argument rather than decorating isolated slides.
+Technical precision remains available in quiet definition strips, speaker notes, and the accessible transcript.
 
 ## Central message
 
-> Pre-existing problems get worse with AI, but emerging practices also become
-> easier to implement.
-> Organizing digital work so that it makes sense later is
-> now part of collaborating well—with both people and machines.
+> AI can get us 80% of the way there.
+> The trouble is that we do not know which
+> 80% it got right.
+> A well-constructed artifact shows enough of its work to
+> support assessment without requiring everything to be reconstructed from
+> scratch.
+
+The audience-facing closing question is:
+
+> When AI gives you an answer, what else do you want it to give you?
 
 ## Delivery constraints
 
 - Publish the slides without an authentication or login gate.
 - Store the slide repository under the `leej3` GitHub account.
 - A public Cloudflare deployment managed through `~/code/websites-management` is an acceptable alternative to an authenticated slide host.
+- Keep the presentation source in version-control-friendly HTML, CSS, and JavaScript rather than PowerPoint.
