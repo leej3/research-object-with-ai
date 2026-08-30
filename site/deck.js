@@ -18,6 +18,11 @@ export const deck = [
     "imageAlt": "A startled office worker watches an impossibly long report pour out of a laptop and coil around the room."
   },
   {
+    "layout": "image",
+    "theme": "navy",
+    "imageAlt": "A caricatured shady dealer opens his trench coat to reveal glowing reports, charts, code, presentations, and data files."
+  },
+  {
     "layout": "tiles",
     "theme": "cream",
     "breaks": [

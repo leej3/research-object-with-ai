@@ -26,6 +26,7 @@ The transcript renders those links alongside the speaker notes.
 - `site/assets/research-suitcase.png` is an original generated illustration of a packed research object.
 - `site/assets/handoff-relay.png` is an original generated illustration of a human, AI agent, and community handing work forward.
 - `site/assets/what-have-you-done.png` is an original generated illustration of a knowledge worker confronting an absurdly overproduced report.
+- `site/assets/digital-artifact-dealer.png` is an original generated caricature of a shady dealer displaying digital artifacts.
 
-The four editorial illustrations were made for this presentation with OpenAI's image-generation tool.
+The five editorial illustrations were made for this presentation with OpenAI's image-generation tool.
 Licensing and exceptions for the supplied marks are recorded in `REUSE.toml` and `LICENSES/LicenseRef-External-Marks.txt`.
