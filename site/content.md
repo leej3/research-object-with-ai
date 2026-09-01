@@ -40,4 +40,4 @@ This keeps all five columns aligned in Markdown editors.
 | 27 | So if you are a knowledge worker | - | assets/digital-artifact-dealer.png | Use the dealer image. |
 | 28 | Or you're just trying to figure out what happened | WHAT HAVE YOU DONE? | - | Show this callback. |
 | 29 | ...you could consider... | YOU COULD CONSIDER… | - | Pause before the final proposal. |
-| 30 | - | https://stamped-principles.org; https://github.com/leej3/research-object-with-ai | assets/stamped-logo.svg | Closing links. |
+| 30 | - | https://stamped-principles.org; https://research-object-with-ai.pages.dev | assets/stamped-logo.svg | Closing links. |
