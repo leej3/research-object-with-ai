@@ -1,7 +1,13 @@
 export const deck = [
-  { "layout": "title", "theme": "cream", "breaks": [22, 65] },
+  { "layout": "title", "theme": "cream", "breaks": [22, 56, 65, 67] },
   { "layout": "question", "theme": "cream" },
-  { "layout": "open-science", "theme": "cream", "imageAlt": "Center for Open Neuroscience logo." },
+  {
+    "layout": "open-science",
+    "theme": "cream",
+    "imageAlt": "Center for Open Neuroscience logo.",
+    "dartmouthLogo": "https://communications.dartmouth.edu/sites/communications/files/wordmark1.jpg",
+    "dartmouthLogoAlt": "Dartmouth College wordmark."
+  },
   { "layout": "stamped", "theme": "cream", "imageAlt": "STAMPED logo." },
   { "layout": "question", "theme": "cream" },
   { "layout": "image", "theme": "cream", "imageAlt": "A caricatured dealer opens his trench coat to reveal reports, charts, code, presentations, and data files." },

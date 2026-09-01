@@ -21,6 +21,7 @@ The transcript renders those links alongside the speaker notes.
 ## Visual assets
 
 - `site/assets/con-logo.png` comes from the Center for Open Neuroscience.
+- The Dartmouth College wordmark on slide 3 is displayed from Dartmouth's [official wordmark resource](https://communications.dartmouth.edu/sites/communications/files/wordmark1.jpg).
 - `site/assets/stamped-logo.svg` comes from the STAMPED branding repository.
 - `site/assets/research-islands.png` is an original generated illustration of a fragmented neuroscience project.
 - `site/assets/research-suitcase.png` is an original generated illustration of a packed research object.

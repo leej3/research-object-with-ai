@@ -70,7 +70,13 @@ function visualFor(slide, slideIndex) {
 
   switch (style.layout) {
     case "title":
-      return { ...common, title: lines[0], subtitle: lines[1], footer: lines[2] };
+      return {
+        ...common,
+        title: lines[0],
+        subtitle: lines[1],
+        presenter: lines[2],
+        footer: lines.slice(4).join(" "),
+      };
     case "word":
     case "question":
       return { ...common, text: lines.join("\n") };
@@ -110,7 +116,14 @@ function visualFor(slide, slideIndex) {
     case "network":
       return { ...common, center: lines[0], nodes: lines.slice(1) };
     case "open-science":
-      return { ...common, alt: style.imageAlt ?? "", src: slide.image, text: slide.words };
+      return {
+        ...common,
+        alt: style.imageAlt ?? "",
+        src: slide.image,
+        text: slide.words,
+        dartmouthLogo: style.dartmouthLogo,
+        dartmouthLogoAlt: style.dartmouthLogoAlt ?? "Dartmouth College wordmark.",
+      };
     case "concept": {
       const [term, definition] = slide.words.split(";").map((part) => part.trim());
       return { ...common, term, definition };
@@ -135,6 +148,7 @@ function renderTitle(visual) {
   const group = element("div", "title-group");
   group.append(multiline(visual.title, "title-main"));
   group.append(element("p", "title-subtitle", visual.subtitle));
+  group.append(element("p", "title-presenter", visual.presenter));
   group.append(element("p", "title-footer", visual.footer));
   screen.append(group);
 }
@@ -306,10 +320,18 @@ function renderNetwork(visual) {
 
 function renderOpenScience(visual) {
   const group = element("div", "open-science-group");
-  const image = element("img", "open-science-logo");
-  image.src = visual.src;
-  image.alt = visual.alt;
-  group.append(image, element("div", "open-science-text", visual.text));
+  const logos = element("div", "open-science-logos");
+  if (visual.dartmouthLogo) {
+    const dartmouthLogo = element("img", "open-science-dartmouth-logo");
+    dartmouthLogo.src = visual.dartmouthLogo;
+    dartmouthLogo.alt = visual.dartmouthLogoAlt;
+    logos.append(dartmouthLogo);
+  }
+  const conLogo = element("img", "open-science-logo");
+  conLogo.src = visual.src;
+  conLogo.alt = visual.alt;
+  logos.append(conLogo);
+  group.append(logos, element("div", "open-science-text", visual.text));
   screen.append(group);
 }
 
