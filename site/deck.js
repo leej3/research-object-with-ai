@@ -33,6 +33,7 @@ export const deck = [
   { "layout": "concept", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
+  { "layout": "quality-map", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
   {
     "layout": "stamped",

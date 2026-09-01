@@ -128,6 +128,14 @@ function visualFor(slide, slideIndex) {
       const [term, definition] = slide.words.split(";").map((part) => part.trim());
       return { ...common, term, definition };
     }
+    case "quality-map":
+      return {
+        ...common,
+        nodes: slide.words.split(";").map((part) => {
+          const [name, detail] = part.split("::").map((value) => value.trim());
+          return { name, detail };
+        }),
+      };
     case "stamped": {
       const [title, ...principleLines] = slide.words.split(";").map((part) => part.trim()).filter(Boolean);
       const active = style.activePrinciples ?? null;
@@ -342,6 +350,38 @@ function renderConcept(visual) {
   screen.append(group);
 }
 
+function renderQualityMap(visual) {
+  const group = element("div", "quality-map");
+  const node = (index, className) => {
+    const item = element("div", `quality-map-node ${className}`);
+    item.append(element("div", "quality-map-name", visual.nodes[index].name));
+    item.append(element("div", "quality-map-detail", visual.nodes[index].detail));
+    return item;
+  };
+  const edge = (className, label) => {
+    const item = element("div", `quality-map-edge ${className}`);
+    item.append(element("span", "quality-map-edge-label", label));
+    return item;
+  };
+  group.append(
+    node(0, "quality-map-quality"),
+    node(1, "quality-map-evidence"),
+    node(2, "quality-map-assurance"),
+    node(3, "quality-map-assessability"),
+    node(4, "quality-map-confidence"),
+    node(5, "quality-map-factors"),
+    node(6, "quality-map-calibration"),
+    edge("quality-map-quality-evidence", "observable evidence"),
+    edge("quality-map-evidence-assurance", "credibility"),
+    edge("quality-map-assurance-confidence", "grounds for"),
+    edge("quality-map-evidence-assessability", "accessible"),
+    edge("quality-map-assessability-confidence", "usable"),
+    edge("quality-map-factors-confidence", "interpretation"),
+    edge("quality-map-assessability-assurance", "use of assurance"),
+  );
+  screen.append(group);
+}
+
 function renderStamped(visual) {
   const group = element("div", "stamped-overview");
   const identity = element("div", "stamped-identity");
@@ -384,6 +424,7 @@ const renderers = {
   network: renderNetwork,
   "open-science": renderOpenScience,
   concept: renderConcept,
+  "quality-map": renderQualityMap,
   stamped: renderStamped,
 };
 

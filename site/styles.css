@@ -747,6 +747,125 @@ a {
   text-wrap: balance;
 }
 
+.quality-map {
+  position: relative;
+  width: 92%;
+  height: 41cqw;
+}
+
+.quality-map-node {
+  position: absolute;
+  width: 19%;
+  color: var(--navy);
+  text-align: center;
+}
+
+.quality-map-name {
+  font-size: 2.25cqw;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.94;
+}
+
+.quality-map-detail {
+  margin-top: 0.7cqw;
+  color: color-mix(in srgb, var(--navy), transparent 24%);
+  font-size: 1.35cqw;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.quality-map-quality { left: 1%; top: 3%; }
+.quality-map-evidence { left: 26%; top: 3%; }
+.quality-map-assurance { left: 50%; top: 3%; }
+.quality-map-confidence { left: 77%; top: 26%; }
+.quality-map-assessability { left: 31%; top: 32%; }
+.quality-map-factors { left: 76%; top: 53%; }
+.quality-map-calibration { left: 51%; top: 67%; }
+
+.quality-map-calibration .quality-map-name { color: var(--coral); font-size: 3.1cqw; }
+.quality-map-calibration .quality-map-detail { color: var(--coral); }
+
+.quality-map-edge {
+  position: absolute;
+  border-color: var(--teal);
+  border-style: solid;
+  color: var(--teal);
+}
+
+.quality-map-edge::after {
+  position: absolute;
+  content: "›";
+  font-size: 2.3cqw;
+  font-weight: 900;
+  line-height: 0.4;
+}
+
+.quality-map-edge-label {
+  display: none;
+}
+
+.quality-map-quality-evidence,
+.quality-map-evidence-assurance {
+  top: 14%;
+  height: 0;
+  border-width: 0.22cqw 0 0;
+}
+
+.quality-map-quality-evidence { left: 20%; width: 6%; }
+.quality-map-evidence-assurance { left: 45%; width: 5%; }
+.quality-map-quality-evidence::after,
+.quality-map-evidence-assurance::after { right: -0.9cqw; top: -0.95cqw; }
+.quality-map-quality-evidence .quality-map-edge-label,
+.quality-map-evidence-assurance .quality-map-edge-label { top: -2.1cqw; left: 50%; transform: translateX(-50%); }
+
+.quality-map-assurance-confidence,
+.quality-map-assessability-confidence,
+.quality-map-factors-confidence,
+.quality-map-quality-calibration,
+.quality-map-confidence-calibration {
+  border-width: 0.22cqw 0 0;
+  transform-origin: left center;
+}
+
+.quality-map-assurance-confidence { left: 68%; top: 17%; width: 14%; transform: rotate(31deg); }
+.quality-map-assessability-confidence { left: 50%; top: 40%; width: 27%; transform: rotate(-8deg); }
+.quality-map-factors-confidence { left: 86%; top: 53%; height: 7%; border-width: 0 0.22cqw 0 0; }
+.quality-map-quality-calibration { left: 11%; top: 20%; width: 58%; transform: rotate(43deg); }
+.quality-map-confidence-calibration { left: 85%; top: 44%; width: 29%; transform: rotate(132deg); }
+
+.quality-map-assurance-confidence::after,
+.quality-map-assessability-confidence::after,
+.quality-map-factors-confidence::after,
+.quality-map-quality-calibration::after,
+.quality-map-confidence-calibration::after { right: -0.8cqw; top: -0.95cqw; }
+
+.quality-map-assurance-confidence .quality-map-edge-label,
+.quality-map-assessability-confidence .quality-map-edge-label,
+.quality-map-factors-confidence .quality-map-edge-label,
+.quality-map-quality-calibration .quality-map-edge-label,
+.quality-map-confidence-calibration .quality-map-edge-label { top: -2cqw; left: 50%; transform: translateX(-50%); }
+
+.quality-map-evidence-assessability,
+.quality-map-assessability-assurance {
+  border-width: 0 0 0 0.22cqw;
+}
+
+.quality-map-evidence-assessability { left: 37%; top: 18%; height: 13%; }
+.quality-map-evidence-assessability::after { left: -0.8cqw; bottom: -1.15cqw; transform: rotate(90deg); }
+.quality-map-evidence-assessability .quality-map-edge-label { left: 1cqw; top: 50%; }
+
+.quality-map-assessability-assurance { left: 53%; top: 19%; height: 12%; border-style: dashed; }
+.quality-map-assessability-assurance::after { left: -0.8cqw; top: -0.5cqw; transform: rotate(-90deg); }
+.quality-map-assessability-assurance .quality-map-edge-label { left: 1cqw; top: 45%; }
+
+.quality-map-factors-confidence::after {
+  right: -0.85cqw;
+  top: -1.05cqw;
+  transform: rotate(-90deg);
+}
+
 .stamped-overview {
   display: grid;
   width: 92%;
