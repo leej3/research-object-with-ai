@@ -26,7 +26,6 @@ export const deck = [
     "imageAlt": "STAMPED logo.",
     "activePrinciples": ["SELF-CONTAINED", "ACTIONABLE", "MODULAR", "PORTABLE", "DISTRIBUTABLE"]
   },
-  { "layout": "word", "theme": "cream" },
   { "layout": "image", "theme": "cream", "imageAlt": "A caricatured dealer opens his trench coat to reveal reports, charts, code, presentations, and data files." },
   { "layout": "word", "theme": "cream", "scale": "giant" },
   { "layout": "concept", "theme": "cream" },
