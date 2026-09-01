@@ -686,6 +686,34 @@ a {
   text-align: center;
 }
 
+.closing-links-group {
+  display: grid;
+  width: 76%;
+  justify-items: center;
+  gap: 7cqw;
+}
+
+.closing-links-logo {
+  width: 37cqw;
+  max-height: 22cqw;
+  object-fit: contain;
+}
+
+.closing-links-list {
+  display: grid;
+  gap: 2.2cqw;
+  text-align: center;
+}
+
+.closing-link {
+  color: var(--teal);
+  font-size: 2.6cqw;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  text-decoration-color: color-mix(in srgb, var(--teal), transparent 50%);
+  text-underline-offset: 0.35cqw;
+}
+
 .layout-open-science,
 .layout-concept,
 .layout-stamped {

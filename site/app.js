@@ -124,6 +124,8 @@ function visualFor(slide, slideIndex) {
         dartmouthLogo: style.dartmouthLogo,
         dartmouthLogoAlt: style.dartmouthLogoAlt ?? "Dartmouth College wordmark.",
       };
+    case "closing-links":
+      return { ...common, alt: style.imageAlt ?? "", src: slide.image, links: slide.words.split(";").map((link) => link.trim()) };
     case "concept": {
       const [term, definition] = slide.words.split(";").map((part) => part.trim());
       return { ...common, term, definition };
@@ -343,6 +345,23 @@ function renderOpenScience(visual) {
   screen.append(group);
 }
 
+function renderClosingLinks(visual) {
+  const group = element("div", "closing-links-group");
+  const logo = element("img", "closing-links-logo");
+  logo.src = visual.src;
+  logo.alt = visual.alt;
+  const links = element("div", "closing-links-list");
+  visual.links.forEach((href) => {
+    const link = element("a", "closing-link", href.replace(/^https:\/\//, ""));
+    link.href = href;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    links.append(link);
+  });
+  group.append(logo, links);
+  screen.append(group);
+}
+
 function renderConcept(visual) {
   const group = element("div", "concept-group");
   group.append(element("div", "concept-term", visual.term));
@@ -423,6 +442,7 @@ const renderers = {
   principle: renderPrinciple,
   network: renderNetwork,
   "open-science": renderOpenScience,
+  "closing-links": renderClosingLinks,
   concept: renderConcept,
   "quality-map": renderQualityMap,
   stamped: renderStamped,

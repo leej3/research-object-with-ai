@@ -43,8 +43,7 @@ export const deck = [
   },
   { "layout": "image", "theme": "cream", "imageAlt": "Research materials shown on disconnected islands: data, code, methods, environments, and decisions." },
   { "layout": "image", "theme": "cream", "imageAlt": "A caricatured dealer opens his trench coat to reveal reports, charts, code, presentations, and data files." },
-  { "layout": "word", "theme": "cream", "scale": "giant" },
   { "layout": "question", "theme": "cream" },
   { "layout": "word", "theme": "cream" },
-  { "layout": "stamped", "theme": "cream", "imageAlt": "STAMPED logo." }
+  { "layout": "closing-links", "theme": "cream", "imageAlt": "STAMPED logo." }
 ];
