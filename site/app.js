@@ -109,6 +109,23 @@ function visualFor(slide, slideIndex) {
       return { ...common, letter: lines[0], name: lines[1], tagline: lines[2], question: lines[3], definition: lines.slice(4).join(" ") };
     case "network":
       return { ...common, center: lines[0], nodes: lines.slice(1) };
+    case "open-science":
+      return { ...common, alt: style.imageAlt ?? "", src: slide.image, text: slide.words };
+    case "concept": {
+      const [term, definition] = slide.words.split(";").map((part) => part.trim());
+      return { ...common, term, definition };
+    }
+    case "stamped": {
+      const [title, ...principleLines] = slide.words.split(";").map((part) => part.trim()).filter(Boolean);
+      const active = style.activePrinciples ?? null;
+      const principles = principleLines.map((line) => {
+        const separator = line.indexOf(":");
+        const name = separator < 0 ? line : line.slice(0, separator).trim();
+        const description = separator < 0 ? "" : line.slice(separator + 1).trim();
+        return { name, description, active: active === null || active.includes(name) };
+      });
+      return { ...common, title, principles, alt: style.imageAlt ?? "", src: slide.image };
+    }
     default:
       throw new Error(`Unknown layout for slide ${slideIndex + 1}: ${style.layout}`);
   }
@@ -287,6 +304,43 @@ function renderNetwork(visual) {
   screen.append(group);
 }
 
+function renderOpenScience(visual) {
+  const group = element("div", "open-science-group");
+  const image = element("img", "open-science-logo");
+  image.src = visual.src;
+  image.alt = visual.alt;
+  group.append(image, element("div", "open-science-text", visual.text));
+  screen.append(group);
+}
+
+function renderConcept(visual) {
+  const group = element("div", "concept-group");
+  group.append(element("div", "concept-term", visual.term));
+  group.append(element("div", "concept-definition", visual.definition));
+  screen.append(group);
+}
+
+function renderStamped(visual) {
+  const group = element("div", "stamped-overview");
+  const identity = element("div", "stamped-identity");
+  const image = element("img", "stamped-overview-logo");
+  image.src = visual.src;
+  image.alt = visual.alt;
+  identity.append(image);
+
+  const list = element("div", "stamped-principles");
+  visual.principles.forEach((principle) => {
+    const row = element("div", `stamped-principle${principle.active ? "" : " is-faded"}`);
+    row.append(element("div", "stamped-letter", principle.name.slice(0, 1)));
+    row.append(element("div", "stamped-name", principle.name));
+    row.append(element("div", "stamped-description", principle.description));
+    list.append(row);
+  });
+
+  group.append(identity, list);
+  screen.append(group);
+}
+
 const renderers = {
   title: renderTitle,
   word: renderWord,
@@ -306,6 +360,9 @@ const renderers = {
   definition: renderDefinition,
   principle: renderPrinciple,
   network: renderNetwork,
+  "open-science": renderOpenScience,
+  concept: renderConcept,
+  stamped: renderStamped,
 };
 
 function renderNotes(slide) {

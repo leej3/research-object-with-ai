@@ -131,7 +131,7 @@ a {
 
 .title-subtitle {
   margin: 3.2cqw 0 0;
-  color: var(--coral);
+  color: var(--fg);
   font-size: 3.2cqw;
   font-weight: 800;
 }
@@ -209,20 +209,20 @@ a {
 
 .tile-2,
 .tile-5 {
-  background: var(--teal);
-  color: var(--paper);
-  transform: rotate(1.5deg);
+  background: var(--paper);
+  color: var(--navy);
+  transform: none;
 }
 
 .tile-3 {
-  background: var(--mustard);
-  transform: rotate(-1.5deg);
+  background: var(--paper);
+  transform: none;
 }
 
 .tile-4 {
-  background: var(--coral);
-  color: var(--paper);
-  transform: rotate(-1deg);
+  background: var(--paper);
+  color: var(--navy);
+  transform: none;
 }
 
 .document-paper {
@@ -677,6 +677,110 @@ a {
   font-weight: 800;
   letter-spacing: 0.06em;
   text-align: center;
+}
+
+.layout-open-science,
+.layout-concept,
+.layout-stamped {
+  background: var(--cream);
+  color: var(--navy);
+}
+
+.open-science-group {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 46% 1fr;
+  align-items: center;
+  gap: 5cqw;
+}
+
+.open-science-logo {
+  width: 100%;
+  max-height: 48cqw;
+  object-fit: contain;
+}
+
+.open-science-text {
+  font-size: 5.5cqw;
+  font-weight: 900;
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+
+.concept-group {
+  width: 86%;
+}
+
+.concept-term {
+  font-size: 8.2cqw;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+}
+
+.concept-definition {
+  max-width: 78cqw;
+  margin-top: 4cqw;
+  font-size: 3.25cqw;
+  font-weight: 700;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.stamped-overview {
+  display: grid;
+  width: 92%;
+  grid-template-columns: 32% 1fr;
+  align-items: center;
+  gap: 4cqw;
+}
+
+.stamped-identity {
+  display: grid;
+  min-height: 36cqw;
+  place-items: center;
+  border-right: 0.25cqw solid var(--navy);
+}
+
+.stamped-overview-logo {
+  width: 26cqw;
+  height: auto;
+}
+
+.stamped-principles {
+  display: grid;
+  gap: 0.45cqw;
+}
+
+.stamped-principle {
+  display: grid;
+  min-height: 5.25cqw;
+  grid-template-columns: 4.5cqw 18cqw 1fr;
+  align-items: center;
+  border-bottom: 0.12cqw solid rgb(13 43 69 / 25%);
+  transition: opacity 180ms ease;
+}
+
+.stamped-principle.is-faded {
+  opacity: 0.16;
+}
+
+.stamped-letter {
+  font-size: 3.3cqw;
+  font-weight: 900;
+}
+
+.stamped-name {
+  font-size: 1.75cqw;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+}
+
+.stamped-description {
+  font-size: 1.45cqw;
+  font-weight: 600;
+  line-height: 1.15;
 }
 
 .definition-group {
