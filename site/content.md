@@ -11,11 +11,11 @@ This keeps all five columns aligned in Markdown editors.
 
 | Slide | Spoken | Words | Image | Notes |
 | --- | --- | --- | --- | --- |
-| 1 |  what did we just make? | WHAT DID WE JUST MAKE? Managing research objects with AI John A. Lee · New York AI Toastmasters | - | - |
-| 2 | What have you done? | WHAT HAVE YOU DONE? | - | Set up the comic reveal with the question alone. — 3s; hold — Section: The things we make |
+| 1 |  This talk explores the digital artifacts of science and how AI enters the picture. I don't necessarily mean using AI to manage... I sort of mean how do we cope with AI. So I'd like to restate this as a knowledge working saying...  | WHAT DID WE JUST MAKE? Managing research objects with AI John A. Lee · New York AI Toastmasters | - | - |
+| 2 | What have you done? That's what we feel like saying sometimes. | WHAT HAVE YOU DONE? | - | Set up the comic reveal with the question alone. — 3s; hold — Section: The things we make |
 | 3 | - | - | assets/what-have-you-done.png | Reveal the absurdly overproduced artifact; let the image land without narration. — 4s; hold — Section: The things we make |
-| 4 | As knowledge workers, we deal in digital artifacts. We generate them, we consume them. How do we know we've got good stuff?    | - | assets/digital-artifact-dealer.png | Introduce the artifact metaphor with a shady-dealer visual pun. — 6s; hold — Section: The things we make |
-| 5 | These artifacts vary enormously—and so do the ways we determine their quality. | - | assets/digital-artifact-quality-cycle.gif | Let the carousel establish the range of knowledge-work artifacts while the spoken line introduces variation in quality judgments. — 8s; steady — Section: The things we make |
+| 4 | We have lots of different digital artifacts from knowledge work depending on whether you are a scientist, consultant, accountant, writer | - | assets/digital-artifact-quality-cycle-final.png | Show the range of knowledge-work artifacts together while the spoken line introduces variation in quality judgments. — 8s; steady — Section: The things we make |
+| 5 | As knowledge workers, we deal in digital artifacts. We generate them, we consume them. How do we know we've got good stuff?    | - | assets/digital-artifact-dealer.png | Introduce the artifact metaphor with a shady-dealer visual pun. — 6s; hold — Section: The things we make |
 | 6 | There are many types of documents that we generate. | LEGAL DOCUMENT CONSULTANT REPORT CLINICAL ASSESSMENT PRESENTATION STYLE GUIDE SCIENTIFIC ANALYSIS | - | Ground the talk in recognizable professional artifacts. — 12s; quick — Section: The things we make |
 | 7 | These are not merely pieces of content. | Not just content. | - | Reject the language of undifferentiated AI content. — 4s; quick — Section: The things we make |
 | 8 | They are artifacts: things intended to be examined, used, preserved, or passed on. | ARTIFACTS | - | Name the object of the talk. — 8s; steady — Section: The things we make |

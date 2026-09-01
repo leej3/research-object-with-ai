@@ -20,12 +20,12 @@ export const deck = [
   {
     "layout": "image",
     "theme": "navy",
-    "imageAlt": "A caricatured shady dealer opens his trench coat to reveal glowing reports, charts, code, presentations, and data files."
+    "imageAlt": "Six black-and-white digital artifact illustrations shown together and labeled legal contract, clinical assessment, scientific report, consultant report, presentation, and automated pipeline."
   },
   {
     "layout": "image",
     "theme": "navy",
-    "imageAlt": "A black-and-white carousel advances every two seconds through recognizable depictions labeled legal contract, clinical assessment, scientific report, consultant report, presentation, and software pipeline."
+    "imageAlt": "A caricatured shady dealer opens his trench coat to reveal glowing reports, charts, code, presentations, and data files."
   },
   {
     "layout": "tiles",
