@@ -12,7 +12,6 @@ export const deck = [
   { "layout": "question", "theme": "cream" },
   { "layout": "image", "theme": "cream", "imageAlt": "A caricatured dealer opens his trench coat to reveal reports, charts, code, presentations, and data files." },
   { "layout": "image", "theme": "cream", "imageAlt": "Six digital artifact illustrations shown together and labeled legal contract, clinical assessment, scientific report, consultant report, presentation, and automated pipeline." },
-  { "layout": "tiles", "theme": "cream", "breaks": [7, 13, 22, 28, 36] },
   { "layout": "word", "theme": "cream", "scale": "giant" },
   { "layout": "word", "theme": "cream", "scale": "giant" },
   { "layout": "word", "theme": "cream", "scale": "giant" },
@@ -32,8 +31,8 @@ export const deck = [
   { "layout": "concept", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
-  { "layout": "quality-map", "theme": "cream" },
   { "layout": "concept", "theme": "cream" },
+  { "layout": "fixed-image", "theme": "cream", "imageAlt": "Relationship map for quality, evidence, assurance, assessability, confidence, evaluator factors, and calibration." },
   {
     "layout": "stamped",
     "theme": "cream",

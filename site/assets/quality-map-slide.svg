@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Quality relationship map</title>
+  <desc id="desc">Artifact quality leads to evidence and provenance, then assurance, then evaluator confidence. Evidence also leads to assessability. Evaluator factors influence confidence. Calibration compares quality and confidence.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#397f7c"/>
+    </marker>
+    <style>
+      .heading { fill: #17284a; font: 900 30px/1.0 Arial, Helvetica, sans-serif; letter-spacing: -1.5px; text-anchor: middle; }
+      .detail { fill: #35425e; font: 700 20px/1.15 Arial, Helvetica, sans-serif; letter-spacing: -0.5px; text-anchor: middle; }
+      .edge { fill: none; stroke: #397f7c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .calibration { fill: #df674f; font: 900 38px/1 Arial, Helvetica, sans-serif; letter-spacing: -1.7px; text-anchor: middle; }
+      .calibration-detail { fill: #df674f; font: 800 21px/1.1 Arial, Helvetica, sans-serif; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="720" fill="#f7f3e5"/>
+
+  <path class="edge" d="M 326 198 H 398"/>
+  <path class="edge" d="M 589 198 H 661"/>
+  <path class="edge" d="M 850 198 H 922"/>
+  <path class="edge" d="M 490 250 V 346"/>
+  <path class="edge" d="M 1018 442 V 287"/>
+
+  <g transform="translate(225 143)">
+    <text class="heading"><tspan x="0" y="0">ARTIFACT</tspan><tspan x="0" dy="29">QUALITY</tspan></text>
+    <text class="detail"><tspan x="0" y="81">How good is the</tspan><tspan x="0" dy="25">work?</tspan></text>
+  </g>
+
+  <g transform="translate(490 143)">
+    <text class="heading"><tspan x="0" y="0">EVIDENCE /</tspan><tspan x="0" dy="29">PROVENANCE</tspan></text>
+    <text class="detail"><tspan x="0" y="81">sources · tests ·</tspan><tspan x="0" dy="25">calculations · reviews</tspan></text>
+  </g>
+
+  <g transform="translate(755 143)">
+    <text class="heading"><tspan x="0" y="0">ASSURANCE</tspan></text>
+    <text class="detail"><tspan x="0" y="57">Grounds for justified</tspan><tspan x="0" dy="25">confidence</tspan></text>
+  </g>
+
+  <g transform="translate(1018 143)">
+    <text class="heading"><tspan x="0" y="0">EVALUATOR</tspan><tspan x="0" dy="29">CONFIDENCE</tspan></text>
+    <text class="detail"><tspan x="0" y="81">How strongly do I</tspan><tspan x="0" dy="25">believe the work is</tspan><tspan x="0" dy="25">good?</tspan></text>
+  </g>
+
+  <g transform="translate(490 391)">
+    <text class="heading"><tspan x="0" y="0">ASSESSABILITY</tspan></text>
+    <text class="detail"><tspan x="0" y="57">How easily can</tspan><tspan x="0" dy="25">evidence be used?</tspan></text>
+  </g>
+
+  <g transform="translate(1018 496)">
+    <text class="heading"><tspan x="0" y="0">EVALUATOR</tspan><tspan x="0" dy="29">FACTORS</tspan></text>
+    <text class="detail"><tspan x="0" y="81">expertise · priors ·</tspan><tspan x="0" dy="25">biases</tspan></text>
+  </g>
+
+  <g transform="translate(640 557)">
+    <text class="calibration"><tspan x="0" y="0">CALIBRATION</tspan></text>
+    <text class="calibration-detail"><tspan x="0" y="37">QUALITY ↔</tspan><tspan x="0" dy="25">CONFIDENCE</tspan></text>
+  </g>
+
+  <rect y="715" width="1280" height="5" fill="#df674f"/>
+</svg>
