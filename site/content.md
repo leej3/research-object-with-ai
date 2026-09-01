@@ -11,20 +11,20 @@ This keeps all five columns aligned in Markdown editors.
 
 | Slide | Spoken | Words | Image | Notes |
 | --- | --- | --- | --- | --- |
-| 1 | This talk explores the digital artifacts of science and how AI enters the picture. I don't necessarily mean using AI to manage... I sort of mean how do we cope with AI. So I'd like to restate this as a knowledge working saying... | WHAT DID WE JUST MAKE? Managing research objects with AI John Lee · New York AI Toastmasters | - | Opening paragraph from `docs/my-script.md`. |
-| 2 | - | WHAT HAVE YOU DONE? | - | Script direction: show this text. |
-| 3 | I work at Dartmouth College, at the Center for Open Neuroscience. We care about open science. Open science is a movement to make the fruits of research available to all: publications, data, physical samples, software, and models, transparent and accessible to all levels of society. Important ideas associated with this are reuse and quality | WE CARE ABOUT OPEN SCIENCE. | assets/con-logo.png | Merges the former slides 3 and 4. Use a larger CON logo beside the expanded text. |
-| 4 | Our team have established a set of principles to organize such research objects. | STAMPED; SELF-CONTAINED: Everything essential can be retrieved.; TRACKED: State, provenance, and changes are recorded.; ACTIONABLE: Procedures can be carried out again.; MODULAR: Parts can be examined or replaced independently.; PORTABLE: Properties survive a change of environment.; EPHEMERAL: Procedures work from a clean, disposable environment.; DISTRIBUTABLE: Others can obtain the same usable state. | assets/stamped-logo.svg | Full STAMPED overview. All principles are equally opaque. |
-| 5 | I am talking about it because I think it is a useful way of thinking about any sort of digital artifact. Because of the prevalence of AI I think we should be thinking very carefully about establishing systematic ways to create, assess, and think about such artifacts. | WHAT HAVE YOU DONE? | - | Script direction: show this callback while speaking the paragraph. |
-| 6 | So I'll come back to the research, but I am assuming you are all knowledge workers—dealers in digital artifacts. I will anchor to that. We create, assess, share, and sell digital artifacts. | - | assets/digital-artifact-dealer.png | Script direction: use the dealer image. |
+| 1 | This talk explores the digital artifacts of science and how AI enters the picture. I don't necessarily mean using AI to manage... I sort of mean how do we cope with AI. So I'd like to restate this as a knowledge working saying to an AI... | WHAT DID WE JUST MAKE? Managing research objects with AI John Lee · New York AI Toastmasters | - | Opening paragraph from `docs/my-script.md`. |
+| 2 | - | WHAT HAVE YOU DONE? | - |  |
+| 3 | I work at Dartmouth College, at the Center for Open Neuroscience. We care about open science. Open science is a movement to make the fruits of research available to all: publications, data, physical samples, software, and models, transparent and accessible to all levels of society. Important ideas associated with this are reuse and quality | WE CARE ABOUT OPEN SCIENCE. | assets/con-logo.png |  |
+| 4 | Our team have established a set of principles to organize such research objects. | STAMPED; SELF-CONTAINED: Everything essential can be retrieved.; TRACKED: State, provenance, and changes are recorded.; ACTIONABLE: Procedures can be carried out again.; MODULAR: Parts can be examined or replaced independently.; PORTABLE: Properties survive a change of environment.; EPHEMERAL: Procedures work from a clean, disposable environment.; DISTRIBUTABLE: Others can obtain the same usable state. | assets/stamped-logo.svg |  |
+| 5 | The utility of these principles extends beyond open science. It is a useful way of thinking about any sort of digital artifact. The prevalence of AI necessitates that we think very carefully about establishing systematic ways to create, assess, and think about such artifacts. | WHAT HAVE YOU DONE? | - | |
+| 6 | So I'll come back to the research, but I am assuming you are all knowledge workers—dealers in digital artifacts. I will anchor to that. We create, assess, share, and sell digital artifacts. | - | assets/digital-artifact-dealer.png | |
 | 7 | So many different types of artifacts. Outputs that AI can help us create. | - | assets/digital-artifact-quality-cycle-final.png | Show the existing overview of artifact types. |
 | 8 | This might be used for a long time, | A LONG TIME | - | Hold the duration contrast. |
-| 9 | Or just once and briefly. | ONCE. BRIEFLY. | - | Script suggests a flame image, but no flame asset is present. |
-| 10 | Some critical | CRITICAL | - | Rapid contrast. |
-| 11 | Some trivial | TRIVIAL | - | Rapid contrast. |
-| 12 | Some are obviously designed for broad reuse | DESIGNED FOR BROAD REUSE | - | Reuse contrast. |
-| 13 | Others are invaluable for reuse outside of their original intent | REUSED BEYOND THEIR ORIGINAL INTENT | - | Reuse contrast. |
-| 14 | I think we can say about the reuse of digital objects is that you can't possibly conceive the breadth of possibilities for their reuse. | REUSE IS UNPREDICTABLE | - | Dense spoken beat with sparse audience text. |
+| 9 | Or just once and briefly. | ONCE. BRIEFLY. | - | |
+| 10 | Some critical | CRITICAL | - |  |
+| 11 | Some trivial | TRIVIAL | - |  |
+| 12 | Some are obviously designed for broad reuse | DESIGNED FOR BROAD REUSE | - |  |
+| 13 | Others are invaluable for reuse outside of their original intent | REUSED BEYOND THEIR ORIGINAL INTENT | - |  |
+| 14 | I think we can say about the reuse of digital objects is that you can't possibly conceive the breadth of possibilities for their reuse. | REUSE IS UNPREDICTABLE | - | |
 | 15 | STAMPED: self-contained, distributable, portable, modular, and actionable really matter for reuse. | STAMPED; SELF-CONTAINED: Everything essential can be retrieved.; TRACKED: State, provenance, and changes are recorded.; ACTIONABLE: Procedures can be carried out again.; MODULAR: Parts can be examined or replaced independently.; PORTABLE: Properties survive a change of environment.; EPHEMERAL: Procedures work from a clean, disposable environment.; DISTRIBUTABLE: Others can obtain the same usable state. | assets/stamped-logo.svg | Reuse-focused STAMPED overview. Self-contained, actionable, modular, portable, and distributable remain opaque; tracked and ephemeral are faded. |
 | 16 | How do we know we have good stuff? | - | assets/digital-artifact-dealer.png | Return to the dealer image. |
 | 17 | How do we assess quality? | QUALITY | - | Introduce the quality sequence. |
@@ -39,4 +39,4 @@ This keeps all five columns aligned in Markdown editors.
 | 26 | So if you are a knowledge worker | - | assets/digital-artifact-dealer.png | Use the dealer image. |
 | 27 | Or you're just trying to figure out what happened | WHAT HAVE YOU DONE? | - | Show this callback. |
 | 28 | ...you could consider... | YOU COULD CONSIDER… | - | Pause before the final proposal. |
-| 29 | - | https://stamped-principles.org; https://research-object-with-ai.pages.dev | assets/stamped-logo.svg | Closing links. |
+| 29 | - | https://stamped-principles.org; https://github.com/leej3/research-object-with-ai | assets/stamped-logo.svg | Closing links. |
